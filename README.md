@@ -51,7 +51,7 @@ Get the native Android experience with our Cordova-based mobile application.
 - 🔔 Push notifications
 - 🔒 Secure authentication
 - 💾 Local storage optimization
-
+`cordova build android --release -- --packageType=apk`
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
