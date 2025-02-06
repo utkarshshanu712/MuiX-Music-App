@@ -51,7 +51,7 @@ Get the native Android experience with our Cordova-based mobile application.
 - 🔔 Push notifications
 - 🔒 Secure authentication
 - 💾 Local storage optimization
-`cordova build android --release -- --packageType=apk`
+
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
@@ -185,3 +185,7 @@ Made with ❤️ by the MuiX Team
 [Website](https://muix.pages.dev/) | [Documentation](docs/) | [Report Bug](issues/) | [Request Feature](issues/)
 
 </div>
+
+`cordova build android --release -- --packageType=apk`
+`$ "$ANDROID_HOME/build-tools/35.0.0/apksigner.bat" sign --ks "/c/Users/sanam/OneDrive/Desktop/MuiX-Music-App/my-release-key.jks" --ks-key-alias my-key-alias --out "./muix.apk" "./platforms/android/app/build/outputs/apk/release/app-release-signed.apk" && "$ANDROID_HOME/build-tools/35.0.0/apksigner.bat" verify --verbose "./muix.apk"`
+`"$ANDROID_HOME/build-tools/35.0.0/apksigner.bat" verify --verbose "./muix.apk"`
