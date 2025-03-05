@@ -1,4 +1,4 @@
-# 🎵 MuiX - Your Ultimate Music Companion
+# 🎵 MuiX - "Your Ultimate Music Companion"
 
 <div align="center">
   
